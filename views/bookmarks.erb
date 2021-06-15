@@ -1,0 +1,7 @@
+<ul>
+  <% @bookmarks.each do |bookmark| %>
+    <li><%= bookmark %></li>
+  <% end %>
+</ul>
+
+# be careful of <%= as this would attempt to render the content
