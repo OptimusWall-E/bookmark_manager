@@ -19,6 +19,7 @@ end
 # end
 
 get '/bookmarks' do
+
   @bookmarks = Bookmark.all
   erb :bookmarks
 end
